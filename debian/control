@@ -1,0 +1,17 @@
+Source: postgresql-musicbrainz-unaccent
+Section: main
+Priority: extra
+Maintainer: Hunter Blanks <hblanks@artifex.org>
+Build-Depends: debhelper (>= 8.0.0), autoconf, libicu-dev, postgresql-server-dev-9.3
+Standards-Version: 3.9.3
+Homepage: https://github.com/hblanks/postgresql-musicbrainz-unaccent/
+# Vcs-Git: https://github.com/hblanks/postgresql-musicbrainz-unaccent/
+
+Package: postgresql-musicbrainz-unaccent
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, postgresql-9.3, libicu48
+Description: PostgreSQL support for searching unaccented text
+ PostgreSQL dictionary template that lexizes tokens by removing all
+ accents.
+ .
+ See https://github.com/metabrainz/postgresql-musicbrainz-unaccent.

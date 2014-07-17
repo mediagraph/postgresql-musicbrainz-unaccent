@@ -4,3 +4,6 @@ sql/musicbrainz_unaccent--?.?.?.sql
 regression.diffs
 regression.out
 results
+debian/files
+debian/*.debhelper.log
+debian/postgresql-musicbrainz-unaccent/*
